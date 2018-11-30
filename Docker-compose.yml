@@ -1,0 +1,7 @@
+version: '2'
+services:
+    
+    apache2:
+        image: webdevops/apache:latest
+        ports:
+            - 80:80
